@@ -1,0 +1,15 @@
+name: clip_anime
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - tqdm
+  - pillow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - sentence_transformers
